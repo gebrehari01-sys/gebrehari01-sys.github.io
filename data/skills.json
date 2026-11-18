@@ -1,0 +1,110 @@
+{
+  "groups": [
+    {
+      "name": "Programming & Analysis",
+      "items": [
+        "Python",
+        "SQL",
+        "Pandas",
+        "NumPy",
+        "PySpark",
+        "Apache Spark",
+        "Statistical Analysis",
+        "A/B Testing",
+        "Hypothesis Testing"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "items": [
+        "Scikit-learn",
+        "XGBoost",
+        "CatBoost",
+        "Random Forest",
+        "Logistic Regression",
+        "Gradient Boosting",
+        "K-Means",
+        "Predictive Modeling",
+        "Feature Engineering",
+        "Time-Series Forecasting"
+      ]
+    },
+    {
+      "name": "Deep Learning & NLP",
+      "items": [
+        "TensorFlow",
+        "PyTorch",
+        "Keras",
+        "CNN",
+        "RNN",
+        "GNN",
+        "Transformers",
+        "Hugging Face"
+      ]
+    },
+    {
+      "name": "Generative AI & LLM",
+      "items": [
+        "RAG",
+        "Prompt Engineering",
+        "Fine-Tuning",
+        "AI Agents",
+        "Embeddings",
+        "Semantic Search",
+        "LangChain",
+        "LangGraph",
+        "Pinecone",
+        "OpenAI APIs",
+        "LLM Evaluation"
+      ]
+    },
+    {
+      "name": "Big Data & Engineering",
+      "items": [
+        "Apache Spark",
+        "Apache Airflow",
+        "Kafka",
+        "ETL/ELT",
+        "dbt",
+        "Data Warehousing",
+        "Snowflake"
+      ]
+    },
+    {
+      "name": "Cloud & Deployment",
+      "items": [
+        "AWS S3",
+        "AWS EC2",
+        "AWS Lambda",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "MLflow"
+      ]
+    },
+    {
+      "name": "Analytics & Visualization",
+      "items": [
+        "Power BI",
+        "Tableau",
+        "Excel",
+        "Power Query",
+        "Matplotlib",
+        "Seaborn",
+        "Plotly",
+        "KPI Reporting",
+        "Data Validation"
+      ]
+    },
+    {
+      "name": "Databases",
+      "items": [
+        "PostgreSQL",
+        "Microsoft SQL Server",
+        "MySQL",
+        "Oracle",
+        "Snowflake"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Hari Gebre",
+  "title": "Data Scientist | Machine Learning & Generative AI",
+  "summary": "Data scientist with 8+ years of experience building predictive models and analytical solutions in Python, SQL and PySpark for financial services and customer-behavior problems. Works across Scikit-learn, XGBoost, TensorFlow, PyTorch and LLM tooling, and turns model results into clear business insight.",
+  "location": "Boston, MA",
+  "readouts": [
+    {
+      "value": "8+ yrs",
+      "label": "in data science and analytics"
+    },
+    {
+      "value": "500K+",
+      "label": "financial records processed with PySpark"
+    },
+    {
+      "value": "250K+",
+      "label": "banking transactions modeled with XGBoost"
+    },
+    {
+      "value": "200K+",
+      "label": "consumer accounts analyzed at Synchrony"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "View projects",
+      "href": "#projects",
+      "kind": "primary"
+    },
+    {
+      "label": "Résumé",
+      "href": "assets/files/hari-gebre-resume.pdf",
+      "kind": "resume"
+    },
+    {
+      "label": "Get in touch",
+      "href": "#contact",
+      "kind": "secondary"
+    }
+  ],
+  "social": {
+    "github": "https://github.com/gebrehari01-sys",
+    "email": "gebrehari01@gmail.com",
+    "phone": "617-410-8617"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "paragraphs": [
+    "I am a data scientist with 8+ years of experience in Python, SQL, machine learning, statistical analysis and predictive modeling, focused on financial services and customer behavior.",
+    "At PNC I build XGBoost models on 250K+ banking transactions for risk assessment. I prepare 500K+ financial records with PySpark and track 8+ model experiments in MLflow so the work is reproducible.",
+    "Before that, at Synchrony, I segmented consumer credit customers with K-Means, tested differences between customer groups, and forecasted transaction volume with ARIMA. I also built Tableau dashboards covering 10+ portfolio KPIs.",
+    "I am also working with generative AI and LLM tooling, including RAG, embeddings, semantic search, LangChain and LangGraph."
+  ],
+  "highlights": [
+    {
+      "label": "Focus",
+      "value": "Predictive modeling & ML"
+    },
+    {
+      "label": "Current role",
+      "value": "Data Scientist at PNC"
+    },
+    {
+      "label": "Base",
+      "value": "Boston, MA"
+    },
+    {
+      "label": "Experience",
+      "value": "8+ years"
+    },
+    {
+      "label": "Core stack",
+      "value": "Python, SQL, PySpark, XGBoost"
+    },
+    {
+      "label": "Education",
+      "value": "Computer Information System"
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "projects": [
+    {
+      "name": "upliftpolicy",
+      "category": "Causal ML",
+      "description": "Retention targeting by uplift rather than churn propensity, with Qini curves and doubly-robust policy evaluation. It surfaces the customers that contact drives away.",
+      "highlights": [
+        "On a seeded synthetic book of 3,000 evaluated customers, the top 30% by uplift adds 4.47 points of retention; the top 30% by churn score loses 0.23.",
+        "Sleeping dogs are 37% of the churn-ranked contact list (336 of 900) but 4% of the uplift-ranked list (40 of 900).",
+        "Uplift from the T-learner correlates +0.638 with the true treatment effect; the churn score correlates -0.143."
+      ],
+      "technologies": [
+        "Python",
+        "Uplift modeling",
+        "T-learner",
+        "Doubly-robust estimation",
+        "Logistic regression",
+        "Qini curves"
+      ],
+      "links": {
+        "source": "https://github.com/gebrehari01-sys/upliftpolicy",
+        "demo": "https://gebrehari01-sys.github.io/upliftpolicy/"
+      },
+      "image": "assets/images/projects/upliftpolicy.svg",
+      "hero": {
+        "src": "assets/images/projects/upliftpolicy-hero.jpg",
+        "alt": "upliftpolicy — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "fieldextract",
+      "category": "Document AI",
+      "description": "Document field extraction with per-field calibrated confidence and a cost-optimal review threshold, so operations knows which fields need a human. Runs on a seeded simulated extractor.",
+      "highlights": [
+        "Per-field isotonic calibration cut held-out ECE from 0.0290 to 0.0048, 6.0x lower.",
+        "Per-field cost-optimal routing costs 1.78x less than one tuned global threshold for the same 4,817 reviews.",
+        "A validated cutoff for a 1% field-error target auto-approves 43.8% of fields at a realised 0.87% error on held-out data."
+      ],
+      "technologies": [
+        "Python",
+        "Isotonic calibration",
+        "Platt scaling",
+        "Cost-based routing",
+        "PII redaction"
+      ],
+      "links": {
+        "source": "https://github.com/gebrehari01-sys/fieldextract",
+        "demo": "https://gebrehari01-sys.github.io/fieldextract/"
+      },
+      "image": "assets/images/projects/fieldextract.svg",
+      "hero": {
+        "src": "assets/images/projects/fieldextract-hero.jpg",
+        "alt": "fieldextract — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "hierforecast",
+      "category": "Forecasting",
+      "description": "Hierarchically reconciled energy demand forecasts using MinT shrinkage reconciliation, scored on pinball loss. Regional forecasts sum exactly to the national figure and the upper tail is accurate.",
+      "highlights": [
+        "MinT's p95 pinball loss is 14.3% lower than bottom-up across 17 nodes over 200 days of synthetic demand.",
+        "Independent forecasts disagreed by up to 612 MW; after reconciliation the gap is floating-point round-off.",
+        "A seasonal-naive baseline is always reported: national RMSE 894.7 MW versus 456.4 MW for the model."
+      ],
+      "technologies": [
+        "Python",
+        "MinT reconciliation",
+        "OLS regression",
+        "Quantile forecasting",
+        "Pinball loss",
+        "Time-series"
+      ],
+      "links": {
+        "source": "https://github.com/gebrehari01-sys/hierforecast",
+        "demo": "https://gebrehari01-sys.github.io/hierforecast/"
+      },
+      "image": "assets/images/projects/hierforecast.svg",
+      "hero": {
+        "src": "assets/images/projects/hierforecast-hero.jpg",
+        "alt": "hierforecast — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "injectbench",
+      "category": "LLM security",
+      "description": "Prompt-injection evaluation harness that reports attack success rate per attack class with confidence intervals. An ablation shows which guardrail layers actually reduce it.",
+      "highlights": [
+        "Full-stack aggregate attack success rate is 10.8% [9.5%, 12.2%], against 87.6% undefended, over 2,000 seeded trials.",
+        "The worst class, roleplay framing, stays at 46.5%, 4.3x the aggregate that a single blocked-rate number would hide.",
+        "The provenance tagger flipped 0 of 2,000 trials while adding 11 ms, so it is flagged as redundant."
+      ],
+      "technologies": [
+        "Python",
+        "Wilson intervals",
+        "Ablation study",
+        "Guardrails",
+        "Prompt injection",
+        "CI regression gate"
+      ],
+      "links": {
+        "source": "https://github.com/gebrehari01-sys/injectbench",
+        "demo": "https://gebrehari01-sys.github.io/injectbench/"
+      },
+      "image": "assets/images/projects/injectbench.svg",
+      "hero": {
+        "src": "assets/images/projects/injectbench-hero.jpg",
+        "alt": "injectbench — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "hnswops",
+      "category": "Vector search",
+      "description": "An HNSW approximate-nearest-neighbor index written from scratch in Rust, with memory-mapped snapshots, online recall monitoring and zero-downtime re-embedding migration.",
+      "highlights": [
+        "Live queries are sampled and replayed as brute-force shadow queries to feed a sliding-window recall estimate with efSearch autotuning.",
+        "Re-embedding migration uses dual-write, a resumable backfill, a verification gate and lossless rollback, including a change of vector dimension.",
+        "Checksummed, versioned snapshots are memory-mapped at load, with atomic publish and verified rollback."
+      ],
+      "technologies": [
+        "Rust",
+        "HNSW",
+        "Memory mapping",
+        "Recall monitoring",
+        "Vector search"
+      ],
+      "links": {
+        "source": "https://github.com/gebrehari01-sys/hnswops"
+      },
+      "image": "assets/images/projects/hnswops.svg",
+      "hero": {
+        "src": "assets/images/projects/hnswops-hero.jpg",
+        "alt": "hnswops — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "huntql",
+      "category": "Security analytics",
+      "description": "A pipe-based threat-hunting query language for Zeek logs with a typed planner, a streaming executor and beaconing detection via FFT autocorrelation.",
+      "highlights": [
+        "The beacon operator scores connection periodicity from inter-arrival jitter and FFT autocorrelation.",
+        "Four built-in hunting operators: stack, rare, first_seen and beacon.",
+        "Planner rewrites such as sort-plus-head fused to bounded top-k, with a line-coverage gate of 85% or higher."
+      ],
+      "technologies": [
+        "Rust",
+        "Query planner",
+        "Streaming executor",
+        "FFT",
+        "Zeek logs"
+      ],
+      "links": {
+        "source": "https://github.com/gebrehari01-sys/huntql"
+      },
+      "image": "assets/images/projects/huntql.svg",
+      "hero": {
+        "src": "assets/images/projects/huntql-hero.jpg",
+        "alt": "huntql — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "binscope",
+      "category": "Binary analysis",
+      "description": "A Rust static triage tool for ELF, Mach-O and PE binaries covering sections, entropy, imports, strings, capability rules and ssdeep/TLSH fuzzy hashes.",
+      "highlights": [
+        "ssdeep and TLSH output matches the reference tools byte for byte.",
+        "34 built-in YAML capability rules report the evidence behind every match.",
+        "Similarity clustering uses single linkage on TLSH distance or ssdeep score, with exact candidate pruning."
+      ],
+      "technologies": [
+        "Rust",
+        "ELF/PE/Mach-O",
+        "ssdeep",
+        "TLSH",
+        "YAML rules"
+      ],
+      "links": {
+        "source": "https://github.com/gebrehari01-sys/binscope"
+      },
+      "image": "assets/images/projects/binscope.svg",
+      "hero": {
+        "src": "assets/images/projects/binscope-hero.jpg",
+        "alt": "binscope — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "fwaudit",
+      "category": "Security tooling",
+      "description": "Offline firmware image auditor for embedded Linux and IoT. It extracts containers in memory under safety limits and reports hardcoded credentials, private keys, weak services and outdated components.",
+      "highlights": [
+        "30 audit rules with a deterministic JSON report that a CI job can gate on.",
+        "Components are matched against a pinned offline CVE subset of 20 CVEs with a SHA-256 integrity pin.",
+        "Extraction writes nothing to disk and is bounded against path traversal and decompression bombs."
+      ],
+      "technologies": [
+        "Python",
+        "NumPy",
+        "SquashFS",
+        "cpio/tar",
+        "JSON Schema"
+      ],
+      "links": {
+        "source": "https://github.com/gebrehari01-sys/fwaudit"
+      },
+      "image": "assets/images/projects/fwaudit.svg",
+      "hero": {
+        "src": "assets/images/projects/fwaudit-hero.jpg",
+        "alt": "fwaudit — Concept render",
+        "caption": "Concept render"
+      }
+    },
+    {
+      "name": "solsentry",
+      "category": "Program analysis",
+      "description": "A static security analyzer for Solidity that builds control-flow graphs from the solc compact JSON AST and reports eight smart-contract bug classes as text, JSON or SARIF.",
+      "highlights": [
+        "Eight detectors, including reentrancy, unprotected selfdestruct and integer overflow, built on dominator, def-use and taint analyses.",
+        "Outputs SARIF 2.1.0 for code-scanning UIs, with a precision/recall evaluation harness.",
+        "Pure Python 3.12 with no runtime dependencies, checked by mypy --strict and 146 tests."
+      ],
+      "technologies": [
+        "Python",
+        "Control-flow graphs",
+        "Taint analysis",
+        "SARIF",
+        "Solidity"
+      ],
+      "links": {
+        "source": "https://github.com/gebrehari01-sys/solsentry"
+      },
+      "image": "assets/images/projects/solsentry.svg",
+      "hero": {
+        "src": "assets/images/projects/solsentry-hero.jpg",
+        "alt": "solsentry — Concept render",
+        "caption": "Concept render"
+      }
+    }
+  ]
+}

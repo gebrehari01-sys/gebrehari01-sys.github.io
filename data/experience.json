@@ -1,0 +1,90 @@
+{
+  "roles": [
+    {
+      "company": "PNC",
+      "logo": "assets/images/logos/pnc.png",
+      "title": "Data Scientist",
+      "start": "Jan 2025",
+      "end": "Present",
+      "location": "Boston, MA",
+      "description": "Banking customer risk and transaction intelligence: modeling transaction behavior, preparing large financial datasets and reporting risk KPIs to business teams.",
+      "highlights": [
+        "Developed XGBoost models in Python to analyze 250K+ banking transactions, identifying unusual transaction behavior and customer activity patterns for risk assessment.",
+        "Processed 500K+ financial records with PySpark, performing data cleansing, transformation and aggregation to prepare reliable datasets for machine learning workflows.",
+        "Created 10+ behavioral features with SQL and performed feature engineering and variable selection across 15+ candidate attributes for predictive modeling.",
+        "Evaluated 5+ model iterations through hyperparameter tuning and cross-validation, and tracked 8+ model experiments in MLflow for reproducible development.",
+        "Developed Power BI reporting covering 12+ financial and risk KPIs to monitor transaction activity, customer behavior and portfolio trends.",
+        "Validated model outputs against business rules and historical patterns, and presented findings to stakeholders in monthly risk and transaction reviews."
+      ],
+      "technologies": [
+        "Python",
+        "SQL",
+        "XGBoost",
+        "PySpark",
+        "MLflow",
+        "Power BI"
+      ]
+    },
+    {
+      "company": "Synchrony",
+      "logo": "assets/images/logos/synchrony.svg",
+      "title": "Data Scientist",
+      "start": "Jun 2022",
+      "end": "Dec 2024",
+      "location": "USA",
+      "description": "Consumer credit and customer segmentation analytics across credit and financing portfolios.",
+      "highlights": [
+        "Analyzed 200K+ consumer account records using Python and SQL to identify customer behavior patterns across credit and financing portfolios.",
+        "Applied K-Means clustering on 10+ behavioral features to develop 4 customer segments for segmentation and portfolio analysis.",
+        "Developed Logistic Regression models across 4+ iterations to analyze customer payment behavior and the factors associated with customer outcomes.",
+        "Performed hypothesis testing and A/B analysis across 2 customer groups, providing statistical evidence for differences in customer response and behavior.",
+        "Built ARIMA forecasting models on 18+ months of historical data to analyze transaction-volume and customer-activity trends for portfolio planning.",
+        "Developed Tableau dashboards covering 10+ portfolio KPIs, combining customer segments, account activity and transaction trends."
+      ],
+      "technologies": [
+        "Python",
+        "SQL",
+        "K-Means",
+        "Logistic Regression",
+        "ARIMA",
+        "Tableau"
+      ]
+    },
+    {
+      "company": "DICEUS",
+      "logo": "assets/images/logos/diceus.svg",
+      "title": "Data Analyst",
+      "start": "Jan 2021",
+      "end": "May 2022",
+      "location": "USA",
+      "description": "Client data analytics and predictive modeling support, working with senior data scientists and client stakeholders.",
+      "highlights": [
+        "Reviewed and standardized 10K+ client records by identifying duplicate, incomplete and inconsistent data, improving overall data quality by 8%.",
+        "Created reporting views covering 4+ business KPIs, helping senior team members monitor customer trends and reducing manual reporting effort by approximately 7%.",
+        "Validated client information across multiple sources and prepared 2+ analysis-ready datasets for reporting and business review.",
+        "Organized client information into 3+ analytical groups, making it easier for teams to identify relevant business patterns.",
+        "Supported 2+ project iterations by clarifying requirements, validating findings and incorporating feedback into analytical deliverables."
+      ]
+    },
+    {
+      "company": "Allstate",
+      "logo": "assets/images/logos/allstate.svg",
+      "title": "Business Analyst",
+      "start": "Jun 2018",
+      "end": "Dec 2020",
+      "location": "Lowell, MA",
+      "description": "Insurance operations and customer analytics: requirements, reporting and data review for policy and customer service processes.",
+      "highlights": [
+        "Used Excel and SQL to review 10K+ policy and customer records, identifying missing information, duplicate entries and data inconsistencies.",
+        "Prepared recurring reports covering policy activity, customer requests and operational KPIs to help business teams monitor day-to-day insurance operations.",
+        "Supported UAT by preparing test cases, validating application results against requirements and documenting 10+ defects.",
+        "Maintained BRD/FRD documentation, process flows and requirement trackers, coordinating with business users, QA and IT teams.",
+        "Assisted with gathering and documenting requirements for insurance policy and customer service processes."
+      ],
+      "technologies": [
+        "Excel",
+        "SQL"
+      ]
+    }
+  ]
+}
